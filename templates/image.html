@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokenea</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 50px;
+            background-color: #F8F4E1;
+            font-family: Arial, sans-serif; /* Change the font family */
+        }
+        img {
+            box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+            width: 50%; /* Increase the image size to 50% of the viewport width */
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px; /* Add rounded corners to the image */
+        }
+        p {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #333; /* Change the text color to a darker shade */
+        }
+    </style>
+</head>
+<body>
+    <img src="{{ image }}" alt="Pokenea Image">
+    <p>{{ phrase }}</p>
+    <p>Container ID: {{ container_id }}</p>
+</body>
+</html>
