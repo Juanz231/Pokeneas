@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Docker
 
 on:
   push:
@@ -30,6 +30,6 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: "pokeneas_1"
+        tags: juanz231/pokeneas_1:image
       
       
