@@ -13,7 +13,7 @@ def json_info():
         "nombre": pokenea["name"],
         "altura": pokenea["height"],
         "habilidad": pokenea["ability"],
-        "container_id": container_id2
+        "container_id": container_id
     })
 
 @app.route('/') # Define the route /
