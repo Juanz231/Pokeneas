@@ -30,6 +30,6 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: "Pokenea_Image"
+        tags: "pokeneas_1"
       
       
